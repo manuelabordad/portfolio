@@ -30,11 +30,7 @@ export const Contact = ({ icons }) => {
 					</p>
 					<p>
 						<icons.FaWhatsapp className="me-2" size={20} />
-						<a
-							href="https://wa.me/573192221896"
-							target="_blank"
-							rel="noreferrer"
-						>
+						<a href="https://wa.me/573192221896" target="_blank" rel="noopener">
 							Send whatsapp
 						</a>
 					</p>
