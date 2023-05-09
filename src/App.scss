@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;1,1000&display=swap");
+
+$purple: #710193;
+$darkPurple: #230820;
+$blue: #2db4d0;
+$btn: #951a88;
+$prod-btn: #58b4a5;
+.flex {
+	display: flex;
+	background-color: black;
+}
+
+body {
+	font-family: "Mulish", sans-serif;
+	a {
+		text-decoration: none;
+		&.active {
+			background-color: violet;
+		}
+	}
+}
+.sidebar {
+	width: 15rem;
+	height: 100vh;
+	background-color: $purple;
+	ul {
+		list-style: none;
+		padding: 1rem 2rem;
+		li {
+			margin-bottom: 1rem;
+		}
+	}
+}
+.content {
+	width: 100%;
+}
+.homeImg {
+	width: 30rem;
+	margin: 2rem;
+	border-radius: 10rem;
+}
+.titles {
+	color: $blue;
+	font-weight: 1000;
+	font-size: 4rem;
+	margin: 3rem;
+}
+.introduction {
+	color: $blue;
+	margin-left: 2rem;
+	.homeBtn {
+		background-color: $btn;
+		border: none;
+		color: white;
+	}
+}
+Link {
+	text-decoration: none;
+}
+.card_size {
+	width: 18rem;
+	.card-body {
+		background-color: gainsboro;
+		.proyects_btn {
+			background-color: $btn;
+			color: white;
+		}
+		h3 {
+			color: $blue;
+			font-weight: bold;
+		}
+	}
+}
+.contact {
+	height: 100%;
+	.picture {
+		width: 12rem;
+		border-color: $btn;
+		border-style: solid;
+		border-width: 0.5rem;
+		margin: 3rem;
+	}
+	.contact_info {
+		margin: 3rem;
+		color: $blue;
+		a {
+			color: $blue;
+		}
+	}
+}
