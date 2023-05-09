@@ -22,8 +22,7 @@ export const Contact = ({ icons }) => {
 						<icons.FaLinkedin className="me-2" size={20} />
 						<a
 							href="https://www.linkedin.com/in/manuela-borda-diaz-44698a221/"
-							target="_blank"
-							rel="noopener"
+							rel="external"
 						>
 							{" "}
 							Visit my linkedin account
@@ -31,7 +30,7 @@ export const Contact = ({ icons }) => {
 					</p>
 					<p>
 						<icons.FaWhatsapp className="me-2" size={20} />
-						<a href="https://wa.me/573192221896" target="_blank" rel="noopener">
+						<a href="https://wa.me/573192221896" rel="external">
 							Send whatsapp
 						</a>
 					</p>
