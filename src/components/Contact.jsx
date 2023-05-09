@@ -23,6 +23,7 @@ export const Contact = ({ icons }) => {
 						<a
 							href="https://www.linkedin.com/in/manuela-borda-diaz-44698a221/"
 							target="_blank"
+							rel="noopener"
 						>
 							{" "}
 							Visit my linkedin account
