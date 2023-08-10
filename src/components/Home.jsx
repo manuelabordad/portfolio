@@ -16,7 +16,7 @@ export const Home = () => {
 								<br />
 							</h3>
 							<p>
-								I like to create frontend proyects with great user experiences,
+								I like to create front and backend proyects with great user experiences,
 								<br />
 								i'm a quick learner and a good teammate.
 							</p>
