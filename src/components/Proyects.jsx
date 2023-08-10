@@ -27,7 +27,7 @@ export const Proyects = ({ icons }) => {
 								</div>
 								<div className="d-grid gap-2 d-md-block ">
 									<button className="btn proyects_btn me-2" type="button">
-										<a href="https://github.com/manuelabordad/CRUD-APP"target="_blank">Code </a>
+										<a href="https://github.com/manuelabordad/CRUD-APP"target="_blank" rel="noreferrer">Code </a>
 									</button>
 									{/* <button className="btn proyects_btn me-2 " type="button">
 									Demo 
