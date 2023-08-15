@@ -29,9 +29,9 @@ export const Proyects = ({ icons }) => {
 									<button className="btn proyects_btn me-2" type="button">
 										<a href="https://github.com/manuelabordad/CRUD-APP"target="_blank" rel="noreferrer">Code </a>
 									</button>
-									{/* <button className="btn proyects_btn me-2 " type="button">
-									Demo 
-									</button> */}
+									<button className="btn proyects_btn me-2 " type="button">
+									<a href="https://shimmering-genie-28be68.netlify.app/"target="_blank" rel="noreferrer">Demo </a>
+									</button>
 								</div>
 							</div>
 						</div>
